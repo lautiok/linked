@@ -57,39 +57,40 @@ main p {
     margin-right: 20px;
     margin-left: 20px;
 }
-main .botton {
-    width: 90%;
 
+main .botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
 }
-main .botton .btn {
-    padding: 15px;
-    background-color: #fcf94d;
-    color: #000000;
-    border: #fffc4b;
-    margin-bottom: 20px;
-}
-main .botton .btn a {
+main .botton a {
+    background-color: #fffc4b;
+    padding: 20px;
     text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
     color: #000000;
 }
-main .correo {
+
+main .contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
-main .correo i{
+main .contacto i {
     font-size: 40px;
-    color: #fffed3;
-}
-main .correo h2 {
     color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 10px;
-    text-align: center;
-    transition: 0.3s;
+    margin-bottom: 20px;
 }
-main .correo h2:hover {
-    color: #fffc4b;
+
+main .contacto h2 {
+    font-size: 20px;
+    color: #cacaca;
 }
+
