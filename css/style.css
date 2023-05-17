@@ -59,14 +59,14 @@ main p {
 }
 main .botton {
     width: 90%;
+
 }
 main .botton .btn {
-    margin-bottom: 20px;
     padding: 15px;
     background-color: #fcf94d;
     color: #000000;
     border: #fffc4b;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 main .botton .btn a {
     text-decoration: none;
